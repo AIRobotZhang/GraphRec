@@ -1,5 +1,5 @@
 # Graph Neural Networks for Social Recommendation
-Data in social recommender systems can be represented as user-user social graph and user-item graph; and learning latent factors of users and items is the key. Graph Neural Networks can naturally integrate node information and topological structure which have been demonstrated to be powerful in learning on graph data. However, building social recommender systems based on GNNs faces challenges. For example, the user-item graph encodes both interactions and their associated opinions; social relations have heterogeneous strengths; users involve in two graphs (e.g., the useruser social graph and the user-item graph). To address the three aforementioned challenges simultaneously, the paper presented a novel graph neural network framework (GraphRec) for social recommendations. 
+Data in social recommender systems can be represented as user-user social graph and user-item graph; and learning latent factors of users and items is the key. Graph Neural Networks can naturally integrate node information and topological structure which have been demonstrated to be powerful in learning on graph data. However, building social recommender systems based on GNNs faces challenges. For example, the user-item graph encodes both interactions and their associated opinions; social relations have heterogeneous strengths; users involve in two graphs (e.g., the user-user social graph and the user-item graph). To address the three aforementioned challenges simultaneously, the paper presented a novel graph neural network framework (GraphRec) for social recommendations. 
 
 Paper is available at [this site](https://dl.acm.org/doi/pdf/10.1145/3308558.3313488).
 
@@ -37,7 +37,7 @@ More detailed configurations can be found in `config.py`, which is in utils fold
 
 ## Reference
 ```
-[1]	Fan W, Ma Y, Li Q, et al. Graph neural networks for social recommendation. The World Wide Web Conference. 2019: 417-426.
+[1] Fan W, Ma Y, Li Q, et al. Graph neural networks for social recommendation. WWW 2019.
 [2] https://github.com/wenqifan03/GraphRec-WWW19
 ```
 
